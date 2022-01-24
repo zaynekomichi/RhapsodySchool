@@ -20,7 +20,7 @@ const Home = ()=>{
                 <div><img src={logo} width="110" height="150"/></div><br/>
                 <div><h1>QUEST FOR EXCELLENCE</h1></div><br/>
                 <div><button className="btn btn-primary">EXPLORE</button></div>  
-         <Footer/>
+         
         </div>
         <div className="block">
             <div>
@@ -34,6 +34,7 @@ const Home = ()=>{
                     is what we put first inline. Nomatter if we are in lockdown classes will continue with our online classes
             </div>
         </div>  
+        <Footer/>
     </div>
            
           
