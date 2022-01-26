@@ -27,7 +27,7 @@ const Home = ()=>{
          
         </div>
         <div className="p-5 block-2">
-             <div className="row">
+             <div className="row p-3">
                  <div className="col-sm">
                      <div className="card">
                          <img src=""  className="card-img-top" alt="" />
@@ -89,13 +89,13 @@ const Home = ()=>{
                     <h1>Class Room</h1>
                     <div className="row">
                         <div className="col-sm ">
-                            <img src={one}  className="img-fluid" alt="" />
+                            <img src={one} loading="lazy" className="img-fluid" alt="" />
                         </div>
                         <div className="col-sm img-fluid">
-                            <img src={two}  className="img-fluid"  alt="" />
+                            <img src={two} loading="lazy" className="img-fluid"  alt="" />
                         </div>
                         <div className="col-sm img-fluid">
-                            <img src={three}  className="img-fluid"  alt="" />
+                            <img src={three} loading="lazy" className="img-fluid"  alt="" />
                         </div>
                     </div>
                 </div>     
