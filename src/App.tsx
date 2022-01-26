@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import {BrowserRouter , Routes, Route} from 'react-router-dom';
 import logo from './logo.svg'
 import TopNavBar from './components/Navbar'
 import Footer from './components/footer'
@@ -18,7 +18,7 @@ function App() {
   return (
     <div>
        <TopNavBar/>
-          <Router>
+          <BrowserRouter>
             <Routes>
               <Route  path="/" element={<Home/>} />
               <Route  path="about" element={<About/>} />
@@ -28,7 +28,7 @@ function App() {
               <Route  path="covid" element={<Covid/>} />
               <Route  path="contact" element={<Contact/>} />
           </Routes>
-        </Router>
+        </BrowserRouter>
     </div>   
   )
 }
