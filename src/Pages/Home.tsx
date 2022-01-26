@@ -1,11 +1,11 @@
 import { Carousel,Container,Row } from "react-bootstrap";
-import logo from '../assets/logo.png';
-import banner from '../assets/banner_one.png';
+import logo from '../assets/logo.webp';
+import banner from '../assets/banner_one.webp';
 import Footer from "../components/footer";
-import  one from '../assets/slide_one.jpg';
-import  two from '../assets/slide_two.jpg';
-import  three from '../assets/slide_three.jpg';
-import virus from '../assets/virus.png';
+import  one from '../assets/slide_one.webp';
+import  two from '../assets/slide_two.webp';
+import  three from '../assets/slide_three.webp';
+import virus from '../assets/virus.webp';
 const Home = ()=>{
     console.log(1);
     return(

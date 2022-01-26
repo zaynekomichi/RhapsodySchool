@@ -1,5 +1,5 @@
 import { Navbar, Nav, Container } from 'react-bootstrap';
-import logo from '../assets/logo.png';
+import logo from '../assets/logo.webp';
 const TopNavbar = ()=>{
     return(
         <div>
