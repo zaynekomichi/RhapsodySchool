@@ -1,5 +1,7 @@
 import { Carousel,Container,Row } from "react-bootstrap";
 import logo from '../assets/logo.webp';
+import security from '../assets/security.jpg';
+import classes from '../assets/classes.jpg';
 import banner from '../assets/banner_one.webp';
 import Footer from "../components/footer";
 import  one from '../assets/slide_one.webp';
@@ -30,7 +32,7 @@ const Home = ()=>{
              <div className="row p-3">
                  <div className="col-sm">
                      <div className="card">
-                         <img src=""  className="card-img-top" alt="" />
+                         <img src={security}  className="card-img-top" alt="" />
                          <div className="card-body">
                             <h5 className="card-title">School Security</h5>
                             <p className="card-text">
@@ -44,8 +46,8 @@ const Home = ()=>{
                      </div>
                  </div>
                  <div className="col-sm">
-                     <div className="card">
-                         <img src=""  className="card-img-top" alt="" />
+                     <div className="card" >
+                         <img src={classes}  className="card-img-top" alt="" />
                          <div className="card-body">
                             <h5 className="card-title">Classes</h5>
                             <p className="card-text">
