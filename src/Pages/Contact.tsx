@@ -1,4 +1,3 @@
-import Footer from "../components/footer";
 
 const Contact = ()=>{
     return(
@@ -24,7 +23,6 @@ const Contact = ()=>{
                 <div className="row m-5">
                     <button className="btn btn-primary">Send</button>
                 </div>
-            <Footer/>
         </div>
     );
 }

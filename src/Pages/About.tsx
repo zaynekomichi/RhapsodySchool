@@ -1,7 +1,7 @@
 import logo from '../assets/logo.webp';
 import teacher from '../assets/remarks.jpg';
 import headmaster from '../assets/headmaster.jpg';
-import Footer from '../components/footer';
+
 
 const About = ()=>{
     return(
@@ -61,7 +61,6 @@ const About = ()=>{
                     </div>
                 </div>
             </div>
-            <Footer/>
         </div>
     );
 }

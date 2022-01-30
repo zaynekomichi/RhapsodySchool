@@ -3,7 +3,6 @@ import logo from '../assets/logo.webp';
 import security from '../assets/security.jpg';
 import classes from '../assets/classes.jpg';
 import banner from '../assets/banner_one.webp';
-import Footer from "../components/footer";
 import  one from '../assets/slide_one.webp';
 import  two from '../assets/slide_two.webp';
 import  three from '../assets/slide_three.webp';
@@ -31,13 +30,13 @@ const Home = ()=>{
         <div className="p-5 block-2">
              <div className="row p-3">
                  <div className="col-sm">
-                     <div className="card h-150">
+                     <div className="card h-150 m-1">
                          <img src={security}  className="card-img-top" alt="" />
                          <div className="card-body">
                             <h5 className="card-title">School Security</h5>
                             <p className="card-text">
                                 At RIA we know your childs safety comes first before everything else.
-                                The school is monitored 24/7 via security cameras. These can be found in all 
+                                The school is monitored 24/7 via security cameras. Found in all 
                                 classes and around the school premises. We take your childs safety seriously, take up and drop off.
                             </p>
                             <a href="#" className="btn btn-primary">More</a>
@@ -45,7 +44,7 @@ const Home = ()=>{
                      </div>
                  </div>
                  <div className="col-sm">
-                     <div className="card h-150" >
+                     <div className="card h-150 m-1" >
                          <img src={classes}  className="card-img-top" alt="" />
                          <div className="card-body">
                             <h5 className="card-title">Classes</h5>
@@ -59,7 +58,7 @@ const Home = ()=>{
                      </div>
                  </div>
                  <div className="col-sm">
-                     <div className="card h-150" >
+                     <div className="card h-150 m-1" >
                          <img src={virus}  className="card-img-top" alt="" />
                          <div className="card-body">
                             <h5 className="card-title">Vacinations</h5>
@@ -102,7 +101,7 @@ const Home = ()=>{
                 </div>     
             </div>
         </div>  
-        <Footer/>
+        
     </div>
            
           

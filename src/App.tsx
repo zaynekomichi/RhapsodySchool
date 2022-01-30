@@ -17,8 +17,8 @@ import TopNavbar from './components/Navbar';
 function App() {
   return (
     <div>
-       <TopNavBar/>
           <BrowserRouter>
+          <TopNavBar/>
             <Routes>
               <Route  path="/" element={<Home/>} />
               <Route  path="about" element={<About/>} />
@@ -28,6 +28,7 @@ function App() {
               <Route  path="covid" element={<Covid/>} />
               <Route  path="contact" element={<Contact/>} />
           </Routes>
+          <Footer/>
         </BrowserRouter>
     </div>   
   )
