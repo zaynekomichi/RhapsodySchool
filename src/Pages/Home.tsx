@@ -7,7 +7,7 @@ import Footer from "../components/footer";
 import  one from '../assets/slide_one.webp';
 import  two from '../assets/slide_two.webp';
 import  three from '../assets/slide_three.webp';
-import virus from '../assets/virus.webp';
+import virus from '../assets/vaccine.jpg';
 const Home = ()=>{
     console.log(1);
     return(
@@ -31,22 +31,21 @@ const Home = ()=>{
         <div className="p-5 block-2">
              <div className="row p-3">
                  <div className="col-sm">
-                     <div className="card">
+                     <div className="card h-150">
                          <img src={security}  className="card-img-top" alt="" />
                          <div className="card-body">
                             <h5 className="card-title">School Security</h5>
                             <p className="card-text">
                                 At RIA we know your childs safety comes first before everything else.
                                 The school is monitored 24/7 via security cameras. These can be found in all 
-                                classes and around the school premises. The school also has guards who constantly 
-                                monitor the grounds.
+                                classes and around the school premises. We take your childs safety seriously, take up and drop off.
                             </p>
                             <a href="#" className="btn btn-primary">More</a>
                          </div>
                      </div>
                  </div>
                  <div className="col-sm">
-                     <div className="card" >
+                     <div className="card h-150" >
                          <img src={classes}  className="card-img-top" alt="" />
                          <div className="card-body">
                             <h5 className="card-title">Classes</h5>
@@ -60,7 +59,7 @@ const Home = ()=>{
                      </div>
                  </div>
                  <div className="col-sm">
-                     <div className="card">
+                     <div className="card h-150" >
                          <img src={virus}  className="card-img-top" alt="" />
                          <div className="card-body">
                             <h5 className="card-title">Vacinations</h5>
@@ -89,7 +88,7 @@ const Home = ()=>{
                 </p>
                 <div className="container">
                     <h1>Class Room</h1>
-                    <div className="row">
+                    <div className="row p-5">
                         <div className="col-sm ">
                             <img src={one} loading="lazy" className="img-fluid" alt="" />
                         </div>

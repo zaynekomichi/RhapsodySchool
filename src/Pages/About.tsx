@@ -1,4 +1,6 @@
 import logo from '../assets/logo.webp';
+import teacher from '../assets/remarks.jpg';
+import headmaster from '../assets/headmaster.jpg';
 import Footer from '../components/footer';
 
 const About = ()=>{
@@ -26,7 +28,7 @@ const About = ()=>{
                 </div>
                 <div className="row">
                     <div className="col-sm-8">
-                        <img src="" className='img-fluid rounded' loading='lazy' alt="" />
+                        <img src={headmaster} className='img-thumbnail rounded' height="50" loading='lazy' alt="" />
                     </div>
                     <div className="col-sm-4">
                         <h1>Headmaster Remarks</h1>
@@ -42,7 +44,7 @@ const About = ()=>{
                     </div>
                 </div>
                 <div className="row ">
-                    <div className="col-sm-4">
+                    <div className="col-sm-4 p-1">
                         <h1>Teacher Remarks</h1>
                         <p>
                             Rhapsody International Academy -  RIA <br/>
@@ -55,7 +57,7 @@ const About = ()=>{
                         </p>
                     </div>
                     <div className="col-sm-8 " >
-                        <img src={logo} className="img-fluid" height="50" alt="" />
+                        <img src={teacher} className="img-thumbnail" height="50" alt="" />
                     </div>
                 </div>
             </div>

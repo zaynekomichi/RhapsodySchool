@@ -1,7 +1,7 @@
 const Learning = ()=>{
     return(
-        <div>
-            
+        <div className="p-1">
+            <h1>Learning</h1>
         </div>
     );
 }
