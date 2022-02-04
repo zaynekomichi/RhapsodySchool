@@ -23,7 +23,7 @@ const Home = ()=>{
              }
              }>
                 <div><img src={logo} width="110" height="150"/></div><br/>
-                <div><h1>QUEST FOR EXCELLENCE</h1></div><br/>
+                <div><h1 className="text-white">QUEST FOR EXCELLENCE</h1></div><br/>
                 <div><button className="btn btn-primary">EXPLORE</button></div>  
          
         </div>
@@ -87,7 +87,7 @@ const Home = ()=>{
                 </p>
                 <div className="container">
                     <h1>Class Room</h1>
-                    <div className="row p-5">
+                    <div className="row m-1">
                         <div className="col-sm ">
                             <img src={one} loading="lazy" className="img-fluid" alt="" />
                         </div>
