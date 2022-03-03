@@ -27,7 +27,7 @@ const send=(user:any)=>{
         <div>
             <h1 className="text-center">Contact Us</h1>
             <div className="container">
-            <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?hl=en&amp;q=178%20smuts%20rd%20waterfalls%20%20Harare+(Rhapsody)&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=55cd8bb9a219c0909569c8f42cedd485d7e1f8d7'></script>
+            <iframe width="100%" height="100%" frameBorder="0" scrolling="no"  id="gmap_canvas" src="https://maps.google.com/maps?hl=en&amp;q=178%20smuts%20rd%20waterfalls%20%20Harare+(Rhapsody)&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=55cd8bb9a219c0909569c8f42cedd485d7e1f8d7'></script>
             </div>
             <div className=" container alert alert-danger"  hidden={alertBox} role="alert">Fill in the required fields</div>
                 <div className=" d-flex justify-content-center  m-5 form-group row">
