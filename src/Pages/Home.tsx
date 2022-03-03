@@ -22,7 +22,7 @@ const Home = ()=>{
                 padding:"5px"
              }
              }>
-                <div><img src={logo} width="110" height="150"/></div><br/>
+                <div><img src={logo} className="fade" width="110" height="150"/></div><br/>
                 <div><h1 className="text-white">QUEST FOR EXCELLENCE</h1></div><br/>
                 <div><button className="btn btn-primary">EXPLORE</button></div>  
          
