@@ -51,7 +51,7 @@ const send=(user:any)=>{
                          onChange={e=>setDescription(e.target.value)}></textarea>
                     </div>
                 </div>
-                <div className="row m-5">
+                <div className="row m-5 pb-5">
                     <button className="btn btn-primary" onClick={()=>send(data)}>Send</button>
                 </div>
         </div>

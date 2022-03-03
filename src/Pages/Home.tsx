@@ -85,7 +85,7 @@ const Home = ()=>{
                     We operate as a team, one of our many core concepts. Our teaches are all qualified and vaccinated. Your childs safety
                     is what we put first inline. Nomatter if we are in lockdown classes will continue with our online classes
                 </p>
-                <div className="container">
+                <div className="container pb-5">
                     <h1>Class Room</h1>
                     <div className="row m-1">
                         <div className="col-sm ">
