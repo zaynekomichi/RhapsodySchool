@@ -67,7 +67,7 @@ const Home = ()=>{
                                 Lets create a safer environment for our children. For further protection all students are required to wear a face mask and to carry 
                                 hand sanitizer.
                             </p>
-                            <a href="#" className="btn btn-primary">More</a>
+                            <a href="https://drive.google.com/file/d/14CT-aiFe1nXYouMiQvNoQ8tZA_HluPZf/view?usp=sharing" target="_blank" className="btn btn-primary">More</a>
                          </div>
                      </div>
                  </div>

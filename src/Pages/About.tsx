@@ -33,13 +33,47 @@ const About = ()=>{
                     <div className="col-sm-4">
                         <h1>Headmaster Remarks</h1>
                         <p>
-                        Rhapsody International Academy -  RIA <br/>
-                            We are an english speaking, christian based school centered in waterfalls on the outskirts of the cbd
-                            far from the bustling noise of the city. Founded in 2019 with a vision to educate the african child and
-                            empower them with the tools they need for tomorrow, "Dont't give a man a fish but teach him how to fish".
-                            A saying which embodes well with what we do. We are on a `Quest For Excellence` meaning everything we do is 
-                            not a sub-standard but an A grade. Our Facilities are top notch, approved by the ministry of education with a teacher to pupil
-                            ratio of 1:10 your child gets the attention they need.  
+                    
+                        <br/>
+
+Quality education remains a pillar for social and economic growth of any country. As economic and social hardships spread globally, education through its curricula needs to be innovative to produce resilient and self-sustaining citizens. Zimbabwean education has been a quality bench mark in the region for decades, however the legacy is being threatened by economic hardships and effects of COVID 19 pandemic. It against these challenges that timely entrance of innovative players is called for , to intercept the situation and pitch the bar of excellence higher, against an increased population of school going children. In context Rhapsody International Academy (RIA) is a private Christian co-education school that was established to contribute to national economic development by offering quality education of international standard, aimed at producing global citizens. It opened its doors on 7 February 2022.
+At RIA, each learner is given an opportunity to dream, believe and achieve
+<br/>
+<b>VISION</b>
+<br/>
+Quality education for global citizenship
+<br/>
+
+<b>MISSION</b>
+<br/>
+Rhapsody International Academy exists to provide quality STEM primary education through innovative 
+teaching and learning methods in state of art infrastructure. 
+Each learner is given an opportunity to dream, believe and achieve
+<br></br>
+<b>OUR MOTTO</b>
+<br/>
+Quest for excellence
+<br></br>
+<b>OUR VALUES</b>
+<br></br>
+<ul>
+    <li>Respect for all</li>
+    <li>Hard work</li>
+    <li>Honesty</li>
+    <li>Compassion</li>
+    <li>Responsibility</li>
+</ul>
+
+<b>GUIDING PRINCIPLES</b>
+<br/>
+We:
+<ul>
+    <li>Respect ourselves, others and  their possessions</li>
+    <li>Work hard at all times</li>
+    <li>Tell the truth always</li>
+    <li>Are compassionate to those less fortunate than yourself</li>
+    <li>Accept responsibility for you actions</li>
+</ul>
                         </p>
                     </div>
                 </div>
@@ -57,7 +91,7 @@ const About = ()=>{
                         </p>
                     </div>
                     <div className="col-sm-8 " >
-                        <img src={teacher} className="img-thumbnail" height="50" alt="" />
+                        <img src={teacher} className="img-thumbnail pull=left" height="50" alt="" />
                     </div>
                 </div>
             </div>
