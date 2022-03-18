@@ -19,7 +19,6 @@ const TopNavbar = ()=>{
                         <Nav.Link href="gallery">Gallery</Nav.Link>
                         <Nav.Link href="calendar">Calendar</Nav.Link>
                         <Nav.Link href="blog">Blog</Nav.Link>
-                        <Nav.Link href="covid">Covid</Nav.Link>
                         <Nav.Link href="contact">Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>

@@ -11,7 +11,6 @@ import Learning from './Pages/Learning';
 import Calendar from './Pages/Calendar';
 import Blog from './Pages/Blog';
 import Contact from './Pages/Contact';
-import Covid from './Pages/Covid';
 import TopNavbar from './components/Navbar';
 import Gallery from './Pages/Gallery';
 
@@ -27,7 +26,6 @@ function App() {
               <Route  path="gallery" element={<Gallery/>} />
               <Route  path="calendar" element={<Calendar/>} />
               <Route  path="blog" element={<Blog/>} />
-              <Route  path="covid" element={<Covid/>} />
               <Route  path="contact" element={<Contact/>} />
           </Routes>
           <Footer/>

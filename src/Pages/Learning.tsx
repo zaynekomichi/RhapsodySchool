@@ -6,7 +6,7 @@ const Learning = ()=>{
             <h1>Learning</h1>
             <p>We are currently offering classes from grade 1-7</p>
             <div className="container">
-               
+               <b>Our syllabus is currently being updated</b>
                     
             </div>
         </div>
