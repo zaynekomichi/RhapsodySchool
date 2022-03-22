@@ -39,7 +39,6 @@ const Home = ()=>{
                                 The school is monitored 24/7 via security cameras. Found in all 
                                 classes and around the school premises. We take your childs safety seriously, take up and drop off.
                             </p>
-                            <a href="#" className="btn btn-primary">More</a>
                          </div>
                      </div>
                  </div>
@@ -53,7 +52,7 @@ const Home = ()=>{
                                 Fully stocked text books, qualified teachers, 1:10 teacher to pupil ratio and wide range 
                                 of subjects offered will make sure your child is ready to tackle the world.
                             </p>
-                            <a href="#" className="btn btn-primary">More</a>
+                            
                          </div>
                      </div>
                  </div>
@@ -67,7 +66,7 @@ const Home = ()=>{
                                 Lets create a safer environment for our children. For further protection all students are required to wear a face mask and to carry 
                                 hand sanitizer.
                             </p>
-                            <a href="https://drive.google.com/file/d/14CT-aiFe1nXYouMiQvNoQ8tZA_HluPZf/view?usp=sharing" target="_blank" className="btn btn-primary">More</a>
+                            
                          </div>
                      </div>
                  </div>

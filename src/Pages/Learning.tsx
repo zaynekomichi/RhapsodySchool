@@ -9,7 +9,7 @@ const Learning = ()=>{
             <p>We are currently offering classes from grade 1-7</p>
             <div className="container">
                <b>Our syllabus is currently being updated</b>
-               <div><img src={school} alt school/></div>
+               <div><img src={school} alt=""/></div>
                     
             </div>
         </div>
