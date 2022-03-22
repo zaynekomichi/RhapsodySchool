@@ -1,6 +1,6 @@
 import { Carousel,Container,Row } from "react-bootstrap";
 import logo from '../assets/logo.webp';
-import security from '../assets/security.jpg';
+import security from '../assets/securityc.jpg';
 import classes from '../assets/classes.jpg';
 import banner from '../assets/banner_one.webp';
 import  one from '../assets/slide_one.webp';
@@ -24,14 +24,14 @@ const Home = ()=>{
              }>
                 <div><img src={logo} className="fade" width="110" height="150"/></div><br/>
                 <div><h1 className="text-white">QUEST FOR EXCELLENCE</h1></div><br/>
-                <div><button className="btn btn-primary">EXPLORE</button></div>  
+                <div><a href="/about"><button className="btn btn-primary">EXPLORE</button></a></div>  
          
         </div>
         <div className="p-5 block-2">
              <div className="row p-3">
                  <div className="col-sm">
                      <div className="card h-150 m-1">
-                         <img src={security}  className="card-img-top" alt="" />
+                         <img src={security}  className="card-img-top" height="173" alt="" />
                          <div className="card-body">
                             <h5 className="card-title">School Security</h5>
                             <p className="card-text">
