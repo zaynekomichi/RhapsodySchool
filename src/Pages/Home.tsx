@@ -80,12 +80,12 @@ const Home = ()=>{
                 <p>
                 Rhapsody International Academy provides the classes your child needs.
                     We are here to nature your child talents and to help them reach their goals.
-                    With a teacher to pupil ratio of 1:10 every child gets the attention they need, making sure no one is left behind.
+                    With a teacher to pupil ratio of 1:11 every child gets the attention they need, making sure no one is left behind.
                     We operate as a team, one of our many core concepts. Our teaches are all qualified and vaccinated. Your childs safety
-                    is what we put first inline. Nomatter if we are in lockdown classes will continue with our online classes
+                    is out priority. No need to miss a day of learning with our online classes.
                 </p>
-                <div className="container pb-5">
-                    <h1>Class Room</h1>
+                <div className="container pb-5 text-center">
+                    <h1>Class Life</h1>
                     <div className="row m-1">
                         <div className="col-sm ">
                             <img src={one} loading="lazy" className="img-fluid" alt="" />

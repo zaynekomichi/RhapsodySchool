@@ -13,7 +13,7 @@ const Footer = ()=>{
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav>
                             <Nav.Link href="https://drive.google.com/file/d/14CT-aiFe1nXYouMiQvNoQ8tZA_HluPZf/view?usp=sharing" target="_blank">Health Policy</Nav.Link>
-                            <Nav.Link href="/about">Careers</Nav.Link>
+                            <Nav.Link href="/careers">Careers</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
     </Navbar>

@@ -2,8 +2,9 @@ import { useState } from "react";
 
 const Blog = ()=>{
     return(
-        <div>
-            
+        <div className="container text-center"> 
+            <h1>School Update Forum</h1>
+            <p>No updates stay tuned!</p>
         </div>
     );
 }

@@ -13,6 +13,7 @@ import Blog from './Pages/Blog';
 import Contact from './Pages/Contact';
 import TopNavbar from './components/Navbar';
 import Gallery from './Pages/Gallery';
+import Careers from './Pages/Careers';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
               <Route  path="calendar" element={<Calendar/>} />
               <Route  path="blog" element={<Blog/>} />
               <Route  path="contact" element={<Contact/>} />
+              <Route  path="careers" element={<Careers/>} />
           </Routes>
           <Footer/>
         </BrowserRouter>
