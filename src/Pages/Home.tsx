@@ -49,7 +49,7 @@ const Home = ()=>{
                             <h5 className="card-title">Classes</h5>
                             <p className="card-text">
                                 RIA offers classes from grade 0-7. We are fully equiped to tackle each grade.
-                                Fully stocked text books, qualified teachers, 1:10 teacher to pupil ratio and wide range 
+                                Fully stocked text books, qualified teachers, 1:15 teacher to pupil ratio and wide range 
                                 of subjects offered will make sure your child is ready to tackle the world.
                             </p>
                             
@@ -60,7 +60,7 @@ const Home = ()=>{
                      <div className="card h-150 m-1" >
                          <img src={virus}  className="card-img-top" alt="" />
                          <div className="card-body">
-                            <h5 className="card-title">Vacinations</h5>
+                            <h5 className="card-title">Vaccinations</h5>
                             <p className="card-text">
                                 All teachers at RIA are vaccinated and as such we require all pupils to be vaccinated for covid 19.
                                 Lets create a safer environment for our children. For further protection all students are required to wear a face mask and to carry 
@@ -80,7 +80,7 @@ const Home = ()=>{
                 <p>
                 Rhapsody International Academy provides the classes your child needs.
                     We are here to nature your child talents and to help them reach their goals.
-                    With a teacher to pupil ratio of 1:11 every child gets the attention they need, making sure no one is left behind.
+                    With a teacher to pupil ratio of 1:15 every child gets the attention they need, making sure no one is left behind.
                     We operate as a team, one of our many core concepts. Our teaches are all qualified and vaccinated. Your childs safety
                     is out priority. No need to miss a day of learning with our online classes.
                 </p>

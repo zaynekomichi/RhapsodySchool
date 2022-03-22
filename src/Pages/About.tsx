@@ -17,7 +17,7 @@ const About = ()=>{
                             empower them with the tools they need for tomorrow, "Dont't give a man a fish but teach him how to fish".
                             A saying which embodes well with what we do. We are on a `Quest For Excellence` meaning everything we do is 
                             not a sub-standard but an A grade. Our Facilities are top notch, approved by the ministry of education with a teacher to pupil
-                            ratio of 1:10 your child gets the attention they need.  
+                            ratio of 1:15 your child gets the attention they need.  
                         </p>
                     </div>
                     <div className="col-sm-8 " >
