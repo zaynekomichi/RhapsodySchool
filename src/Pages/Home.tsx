@@ -62,9 +62,8 @@ const Home = ()=>{
                          <div className="card-body">
                             <h5 className="card-title">Vaccinations</h5>
                             <p className="card-text">
-                                All teachers at RIA are vaccinated and as such we require all pupils to be vaccinated for covid 19.
-                                Lets create a safer environment for our children. For further protection all students are required to wear a face mask and to carry 
-                                hand sanitizer.
+                                All teachers at RIA are vaccinated and as such we encourage all pupils to be vaccinated for covid 19.
+                                Lets create a safer environment for our children. For further protection all students are required to wear a face mask.
                             </p>
                             
                          </div>

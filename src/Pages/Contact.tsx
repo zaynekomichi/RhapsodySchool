@@ -5,7 +5,7 @@ import face from "../assets/facebook_compressed.jpg"
 import whatsapp from "../assets/whatsapp_compressed.jpg"
 import insta from "../assets/instagram_compressed.jpg"
 import linkedin from "../assets/linkedin_compressed.jpg"
-
+import tel from "../assets/telephone.png"
 
 const Contact = ()=>{
 const [alertBox,setAlert] = useState(true);
@@ -49,7 +49,8 @@ const send=(user:any)=>{
               <a href="https://www.facebook.com/rhapsodyinteracademy/" target="_blank"><img src={face} width="20"/></a> &nbsp;
               <a href="https://www.instagram.com/rhapsodyinternationlacademy/?hl=en" target="_blank"><img src={insta} width="20"/></a>  &nbsp;
               <a href="https://zw.linkedin.com/in/rhapsody-international-aba850214" target="_blank"><img src={linkedin} width="20"/></a>  &nbsp;
-              <a href="tel:+263717965147" target="_blank"><img src={whatsapp} width="20"/></a>  &nbsp;
+              <a href="tel:+263717965147" target="_blank"><img src={tel} width="20"/></a>  &nbsp;
+              <a href="https://wa.me/qr/RXZW46FSBMV7J1" target="_blank"><img src={whatsapp} width="20"/></a>  &nbsp;
             </p>
             <div className="container">
             <iframe width="100%" height="100%" frameBorder="0" scrolling="no"  id="gmap_canvas" src="https://maps.google.com/maps?hl=en&amp;q=178%20smuts%20rd%20waterfalls%20%20Harare+(Rhapsody)&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=55cd8bb9a219c0909569c8f42cedd485d7e1f8d7'></script>
