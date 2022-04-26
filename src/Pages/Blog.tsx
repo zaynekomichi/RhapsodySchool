@@ -52,7 +52,7 @@ const Blog = ()=>{
       </p>
       <p>
           Online learning has more advantages than disadvantages that being said some might say the few disadvantages
-          overweight the  advantages which might be true to a certain extent. So here are the advantages >
+          overweight the  advantages which might be true to a certain extent. So here are the advantages 
       </p>
       <p>
           Advantages
