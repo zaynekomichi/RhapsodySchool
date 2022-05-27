@@ -78,9 +78,9 @@ const Blog = ()=>{
         <small>01/04/2022</small>
     </Accordion.Body>
   </Accordion.Item>
-  <Accordion>
+  <Accordion >
       <Accordion.Header> Africa day</Accordion.Header>
-      <Accordion.Body>
+      <Accordion.Body className="text-start">
         <p>
         <b></b> Most African countries spent two generations under European colonial power. In one
 way or another, almost all African countries were victims of the colonial period. The
@@ -101,7 +101,8 @@ celebrated in a few countries for five years until the Organization of African U
 was established</p>
 
 
-<small>Read more<a href="https://media.africaportal.org/documents/Africa_Day_in_the_Spirit_of_Pan.pdf" target="_blank"></a></small>
+<small>Read more<a href="https://media.africaportal.org/documents/Africa_Day_in_the_Spirit_of_Pan.pdf" target="_blank">here</a></small>
+      <small>25/05/2022</small>
       </Accordion.Body>
   </Accordion>
  
