@@ -30,6 +30,7 @@ function App() {
               <Route  path="contact" element={<Contact/>} />
               <Route  path="careers" element={<Careers/>} />
           </Routes>
+          
           <Footer/>
         </BrowserRouter>
     </div>   

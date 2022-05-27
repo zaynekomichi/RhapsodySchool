@@ -78,6 +78,32 @@ const Blog = ()=>{
         <small>01/04/2022</small>
     </Accordion.Body>
   </Accordion.Item>
+  <Accordion>
+      <Accordion.Header> Africa day</Accordion.Header>
+      <Accordion.Body>
+        <p>
+        <b></b> Most African countries spent two generations under European colonial power. In one
+way or another, almost all African countries were victims of the colonial period. The
+effects of colonialism are still visible in the continent. </p>
+        <p>Many scholars say that the current political instability, social disorder and economic
+crisis in Africa have their roots in the colonial period. Other scholars have reservations
+on this matter. Personally I share both ideas, in a sense that there are still impacts of
+colonial period, but not all problems can be taken as the legacy of the colonial period.
+Just to give an example, the current problem between Ethiopia and Eritrea is the impact
+of European colonial power. </p>
+        <p>In the 1950s some African countries gained independence from their colonial powers.
+These independent countries tried to establish a specific day to be celebrated by
+Africans, to create a sense of unity and solidarity. A conference of independent African
+States was held in April 1958 in Ghana. Including Ethiopia, the conference was
+attended by eight states, and April 15 was declared as African Freedom Day. In order to
+celebrate the advance of liberation movements in the continent of Africa, this day was
+celebrated in a few countries for five years until the Organization of African Unity (OAU)
+was established</p>
+
+
+<small>Read more<a href="https://media.africaportal.org/documents/Africa_Day_in_the_Spirit_of_Pan.pdf" target="_blank"></a></small>
+      </Accordion.Body>
+  </Accordion>
  
 </Accordion>
 <div>
