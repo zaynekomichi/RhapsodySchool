@@ -101,8 +101,8 @@ celebrated in a few countries for five years until the Organization of African U
 was established</p>
 
 
-<small>Read more<a href="https://media.africaportal.org/documents/Africa_Day_in_the_Spirit_of_Pan.pdf" target="_blank">here</a></small>
-      <small>25/05/2022</small>
+<small>Read more <a href="https://media.africaportal.org/documents/Africa_Day_in_the_Spirit_of_Pan.pdf" target="_blank">here</a></small>
+      <br/><small>25/05/2022</small>
       </Accordion.Body>
       </Accordion.Item>
 </Accordion>
