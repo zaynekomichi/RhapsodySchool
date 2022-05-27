@@ -77,8 +77,8 @@ const Blog = ()=>{
       <p>read more <a href="https://elearningindustry.com/advantages-and-disadvantages-online-learning" target="_blank">here</a></p>
         <small>01/04/2022</small>
     </Accordion.Body>
-  </Accordion.Item>
-  <Accordion >
+  </Accordion.Item >
+<Accordion.Item eventKey="4">
       <Accordion.Header> Africa day</Accordion.Header>
       <Accordion.Body className="text-start">
         <p>
@@ -104,8 +104,7 @@ was established</p>
 <small>Read more<a href="https://media.africaportal.org/documents/Africa_Day_in_the_Spirit_of_Pan.pdf" target="_blank">here</a></small>
       <small>25/05/2022</small>
       </Accordion.Body>
-  </Accordion>
- 
+      </Accordion.Item>
 </Accordion>
 <div>
     <br/>
