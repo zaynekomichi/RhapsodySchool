@@ -22,3 +22,16 @@ body {
   height: 70vh;
 }
 
+.sp_block{
+  color: white;
+  background-image:linear-gradient(150deg, blue, gold);
+  border: none;
+}
+
+.sp_block:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+  background-image:linear-gradient(90deg, blue, gold);
+
+}
+

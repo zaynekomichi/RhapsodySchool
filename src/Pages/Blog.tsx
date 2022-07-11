@@ -1,18 +1,47 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import axios from "axios";
 import { Accordion } from "react-bootstrap";
 
 const Blog = ()=>{
+  const [BlogData,setBlogData] = useState([]);
+
+  useEffect(() => {
+
     const medium_url = "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@riazw";
     axios.get(medium_url).then(res=>{
-        console.log(res.data.items)
+      console.log(res.data.items)
+      setBlogData(res.data.items)
     }).catch(e=>{
         console.log(e)
     })
+  }, [])
+
+    
     return(
         <div className="container text-center"> 
             <h1>School Blog</h1>
-            <Accordion defaultActiveKey="0">
+            <div className="row">
+             {BlogData.map((item:any)=>{
+                return(
+                  <div className="col-sm text-center">
+                    <div className="card sp_block"key={item.title} style={{width:'20rem'}}>
+                        <img src={item.thumbnail} className="img-top card-img-top"/>
+                      <div className="card-body text-start">
+                        <div>
+                          <h3>{item.title}</h3>
+                        </div>
+                        <div>
+                          <small>Author {item.author}</small>
+                        </div>
+                      
+                        <a href={item.link} target="_blank" className="text-white"><b>Read Here</b></a>
+                      </div>
+                    </div>
+                  </div>
+                )
+             })}
+             </div>
+            {/* <Accordion defaultActiveKey="0">
             <Accordion.Item eventKey="0">
       <Accordion.Header>Dangers of Social Media for Kids at an early age</Accordion.Header>
       <Accordion.Body className="text-start">
@@ -116,7 +145,7 @@ was established</p>
     <br/>
 
     
-</div>
+</div> */}
         </div>
     );
 }
